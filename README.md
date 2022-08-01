@@ -1,16 +1,12 @@
-# gtu_marks
+# Marks Calculator
 
-A new Flutter project.
+I finished Marks Calculator Project which has made using Flutter Frame Work. During making of this project i learn so many new things and i really happy to launch this app.
 
-## Getting Started
+Using this app students can calculate SPI - CPI - CGPA by own and also convert SPI to percentage. 
 
-This project is a starting point for a Flutter application.
+## Download Marks Calculator App
+https://drive.google.com/file/d/1GxoSruBQiLDivKWZ2QBgstgPrvmKbEKL/view?usp=sharing
 
-A few resources to get you started if this is your first Flutter project:
+## Snep Shots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/96719397/182142529-32a7c15f-a7f1-423e-bf59-70809c2239cf.jpg

@@ -9,4 +9,4 @@ https://drive.google.com/file/d/1GxoSruBQiLDivKWZ2QBgstgPrvmKbEKL/view?usp=shari
 
 ## Snep Shots
 
-https://user-images.githubusercontent.com/96719397/182142529-32a7c15f-a7f1-423e-bf59-70809c2239cf.jpg
+![SPI Calculator](https://user-images.githubusercontent.com/96719397/182144343-d24ea2ce-bdf5-4efa-9a10-5e4e9c8c075c.png)

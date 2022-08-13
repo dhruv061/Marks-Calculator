@@ -1,10 +1,31 @@
+import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
+import 'package:gtu_marks/pages/InternetPageError.dart';
 
 import 'package:hexcolor/hexcolor.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-class About_Me_Page extends StatelessWidget {
+class About_Me_Page extends StatefulWidget {
+  @override
+  State<About_Me_Page> createState() => _About_Me_PageState();
+}
+
+class _About_Me_PageState extends State<About_Me_Page> {
+  //For Check Internet Connection Error
+  //method for check internet conection
+  void checkInternetConnection(
+      ConnectivityResult internetConnection, String url) {
+    // inside if condition is true then Internet is off otherwise is on
+    if (internetConnection == ConnectivityResult.none) {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => InternetErroPage()));
+    } else {
+      //open all the link
+      launchUrlString(url);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     //********************************************************************************* */
@@ -109,8 +130,11 @@ class About_Me_Page extends StatelessWidget {
                   width: 60,
                   // color: Colors.white,
                   child: IconButton(
-                      onPressed: () {
-                        launchUrlString(
+                      onPressed: () async {
+                        //for check internet Conection
+                        final internetConnection =
+                            await Connectivity().checkConnectivity();
+                        checkInternetConnection(internetConnection,
                             "https://www.linkedin.com/in/dhruv-mavani-439a8a20a");
                       },
                       icon: Image.asset("assets/icons/linkedin_Icone.png")),
@@ -123,24 +147,31 @@ class About_Me_Page extends StatelessWidget {
                   width: 60,
                   // color: Colors.white,
                   child: IconButton(
-                      onPressed: () {
-                        launchUrlString("https://github.com/dhruv061");
+                      onPressed: () async {
+                        //for check internet Conection
+                        final internetConnection =
+                            await Connectivity().checkConnectivity();
+                        checkInternetConnection(
+                            internetConnection, "https://github.com/dhruv061");
                       },
                       icon: Image.asset("assets/icons/Github_Icone.png")),
                 ),
 
-                //for Instagram
+                //for Privacy Policy
                 Container(
-                  margin: EdgeInsets.only(left: 20, top: 10),
+                  margin: EdgeInsets.only(left: 10, top: 10),
                   height: 60,
                   width: 60,
-                  // color: Colors.white,
+                  // color: Colors.red
                   child: IconButton(
-                      onPressed: () {
-                        launchUrlString(
-                            "https://www.instagram.com/dhruv_mavani33/");
+                      onPressed: () async {
+                        //for check internet Conection
+                        final internetConnection =
+                            await Connectivity().checkConnectivity();
+                        checkInternetConnection(internetConnection,
+                            "https://pages.flycricket.io/marks-calculator-0/privacy.html");
                       },
-                      icon: Image.asset("assets/icons/instagram_Icone.png")),
+                      icon: Image.asset("assets/icons/PrivatePolicy.png")),
                 ),
               ],
             ),

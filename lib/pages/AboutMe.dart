@@ -171,7 +171,7 @@ class _About_Me_PageState extends State<About_Me_Page> {
                         checkInternetConnection(internetConnection,
                             "https://pages.flycricket.io/marks-calculator-0/privacy.html");
                       },
-                      icon: Image.asset("assets/icons/PrivatePolicy.png")),
+                      icon: Image.asset("assets/icons/privatepoilcy.png")),
                 ),
               ],
             ),

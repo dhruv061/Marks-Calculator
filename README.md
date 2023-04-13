@@ -1,6 +1,6 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
+![SPI Calculator (1) 1](https://user-images.githubusercontent.com/96719397/231746339-e62d6968-d8cf-4030-92af-711e17592ec2.png)
 
 # GTU SPI CPI CGPA Calculator
 
@@ -46,5 +46,7 @@ This project is used by the all the students of Gujrat Technological University.
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/filed1sD8OYFBL6Xtx8grlCrOj_tbuiCe7Csvq/view?usp=share_link)
+![Component 1](https://user-images.githubusercontent.com/96719397/231748117-9d59f7fe-4aef-4095-a4cb-ca76ae58a056.png)
+
+
 

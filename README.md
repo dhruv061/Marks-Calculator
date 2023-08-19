@@ -1,12 +1,52 @@
-# Marks Calculator
 
-I finished Marks Calculator Project which has made using Flutter Frame Work. During making of this project i learn so many new things and i really happy to launch this app.
 
-Using this app students can calculate SPI - CPI - CGPA by own and also convert SPI to percentage. 
+![SPI Calculator (1) 1](https://user-images.githubusercontent.com/96719397/231746339-e62d6968-d8cf-4030-92af-711e17592ec2.png)
 
-## Download Marks Calculator App
-https://drive.google.com/file/d/1GxoSruBQiLDivKWZ2QBgstgPrvmKbEKL/view?usp=sharing
+# GTU SPI CPI CGPA Calculator
 
-## Snep Shots
+Using this app, students can easily calculate their SPI, CPI, and CGPA. Students can also convert their CGPA into a percentage. This is a very simple application that is made for learning Flutter.
 
-![SPI Calculator](https://user-images.githubusercontent.com/96719397/182144343-d24ea2ce-bdf5-4efa-9a10-5e4e9c8c075c.png)
+
+
+## Tech Stack
+
+**Client:** Flutter, Dart
+
+
+**Tools:** Figma 
+
+
+## Features
+
+- Easy to calculate SPI,CPI,CGPA
+- Convert CGPA to into %
+- User Friendly UI
+
+
+
+
+
+
+## 🔗 Links
+[![project](https://img.shields.io/badge/Marks-Calculator-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://play.google.com/store/apps/details?id=com.DhruvMavani.MarksCalculator)
+
+
+
+## Used By
+
+This project is used by the all the students of Gujrat Technological University.
+
+
+
+
+## Authors
+
+- [@dhruv061](https://github.com/dhruv061)
+
+
+## Screenshots
+
+![Component 1](https://user-images.githubusercontent.com/96719397/231748117-9d59f7fe-4aef-4095-a4cb-ca76ae58a056.png)
+
+
+

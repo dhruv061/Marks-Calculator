@@ -1,15 +1,10 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:gtu_marks/pages/CPI.dart';
+
 import 'package:gtu_marks/pages/SPI_Result.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'HomePage.dart';
-
-//this package for only get integer input from user
-import 'package:flutter/services.dart';
 
 class SPI_Page extends StatefulWidget {
   @override

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:gtu_marks/pages/HomePage.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+// ignore: must_be_immutable
 class CPIResult extends StatefulWidget {
   //store value from CPI.dart Page
   String getEarnedGreadPoint;

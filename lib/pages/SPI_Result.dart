@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:gtu_marks/pages/HomePage.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+// ignore: must_be_immutable
 class SPI_Result extends StatefulWidget {
   //here we getting data from SPI.dart page
   //here we using dynamic because we perfrom various operraion on list....

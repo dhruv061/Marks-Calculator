@@ -182,8 +182,8 @@ class _PercentagePageState extends State<PercentagePage> {
                                     double result = (ConvertedSPI - 0.5) * 10;
 
                                     //rounded into 2 number in double after .
-                                    double temp = double.parse(
-                                        (result).toStringAsFixed(2));
+                                    // double temp = double.parse(
+                                    //     (result).toStringAsFixed(2));
                                     PercenTage = result;
                                   }
 

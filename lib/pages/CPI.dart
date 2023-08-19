@@ -129,6 +129,7 @@ class _CPI_PageState extends State<CPI_Page> {
                             if (value == null || value.isEmpty) {
                               return 'Please Enter Subject Number';
                             }
+                            return null;
                           },
 
                           //for text into center
@@ -196,6 +197,7 @@ class _CPI_PageState extends State<CPI_Page> {
                             } else if (double.parse(value) < 1) {
                               return 'Invalid Input';
                             }
+                            return null;
                           },
 
                           //for text into center
